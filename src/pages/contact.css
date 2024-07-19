@@ -1,0 +1,23 @@
+.part_img {
+  width: 100%;
+  object-fit: contain;
+}
+
+img {
+  height: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.part_contain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.part_left {
+  color: #f06e27;
+  font-weight: 500;
+  text-transform: uppercase;
+}

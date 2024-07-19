@@ -1,0 +1,37 @@
+.about {
+  background-color: #f5e8d3;
+}
+.col_1 {
+  font-size: 2rem;
+  text-align: left;
+  text-align: center;
+}
+.col_1 h1 {
+  padding-top: 2.25rem;
+}
+
+.about p {
+  display: block;
+  padding-left: 30rem;
+  padding-right: 7rem;
+  text-align: left;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  font-size: 18px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.col_2 img {
+  height: 500px;
+  width: 100%;
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

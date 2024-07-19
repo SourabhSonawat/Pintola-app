@@ -1,0 +1,102 @@
+.head-conatainer {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* .head-container.scrolled {
+  width: 1519.2px;
+  position: fixed;
+  top: 0px;
+  z-index: 40;
+  opacity: 0.8;
+} */
+
+.header_1 {
+  background-color: #f06e27;
+  color: #fff;
+  text-align: center;
+  font-family: "Baloo2-Regular";
+}
+.header_1 p {
+  line-height: 1.25rem;
+  padding: 0.75em 1em;
+  font-size: 1.25rem;
+}
+.header_1 span {
+  font-size: 1.55rem;
+  margin-right: 0.5rem;
+}
+
+.header_2 {
+  background-color: #fcf7ef;
+  font-family: cursive;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 1.25rem 0;
+  border-bottom: 3px solid #f06e27;
+}
+
+.logo img {
+  height: 3.75rem;
+  width: auto;
+  transition: background-color 0.3s linear, height 0.2s linear;
+}
+.logo img:hover {
+  opacity: 0.7;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.25rem;
+  font-size: 1.5rem;
+  color: #746661;
+  line-height: 1.5;
+  padding: 2.75rem 0.75rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.list a {
+  text-decoration: none;
+  color: #746661;
+}
+
+a.active {
+  color: #f06e27;
+  font-size: 1.7rem;
+}
+
+.list a:hover {
+  color: #f06e27;
+}
+.list a:last-child {
+  color: black;
+}
+.list span:hover {
+  color: #f06e27;
+}
+
+.trackOrder {
+  background-color: #f06e27;
+  padding: 1rem;
+  color: black;
+  border-radius: 9999px;
+  margin-left: -25rem;
+}
+.trackOrder a {
+  text-decoration: none;
+  color: #fff;
+}
+.trackOrder:hover {
+  color: #fff;
+}

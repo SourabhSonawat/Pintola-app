@@ -1,0 +1,29 @@
+footer {
+  border-top: 2px solid #f06e27;
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #746661;
+}
+footer img {
+  height: 4rem;
+  width: auto;
+  transition: background-color 0.3s linear, height 0.2s linear;
+  margin-bottom: 1.25rem;
+}
+footer p {
+  margin-bottom: 1.25rem;
+}
+.part_1 {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h2 {
+  font-weight: 500;
+}
+h4 {
+  font-weight: 200;
+}
